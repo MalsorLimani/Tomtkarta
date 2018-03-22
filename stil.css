@@ -1,0 +1,131 @@
+* {
+	font-family: "Open Sans";
+	font-size:16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 125%;
+}
+a {
+	color: #006699;
+}
+a:hover {
+	color: #004d74;
+    text-decoration: underline;
+}
+b {
+	font-weight: 600;
+}
+body {
+	background: rgba(0, 0, 0, 0);
+	margin:0px;
+	overflow-x: hidden;
+}
+.channel {
+	text-align: left;
+	max-width: 750px;
+	min-width: 320px;
+	display: block;
+	margin-top:15px;
+	border-radius: 0em;
+	border-bottom: #f3f3f3 solid 1px;
+	box-shadow: 0px 0px 0px;
+}
+.heading {
+	font-size: 26px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	color: white;
+	background-color: #006699;
+}
+.innehall{
+	/*padding: 10px !important;*/
+}
+
+.innehall h2{
+	margin:0px;
+	cursor:pointer;
+}
+.savebutton {
+	border-radius: 2px;
+	color: #ffffff !important;
+	font-size: 14px;
+	padding: 10px 25px;
+	text-shadow: 1px 1px 4px #7d7c7c;
+}
+.savebutton:hover{
+	background:#3A81BD !important;
+}
+#wrapper {
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	-webkit-overflow-scrolling: touch;
+	font-size:14px;
+	max-width: 1140px;
+	overflow-x: hidden;
+}
+#form {
+	background: #f2f2f2;
+	color: #3f3f3f;
+	margin-top:0px;
+	/*padding: 20px 10px 0px 10px;*/
+	left: 0px;
+	position:relative;
+	width: auto;
+	max-width: 100%; 
+	z-index:10;
+}
+input {
+	margin-top:3px;
+	max-width:480px; 
+	min-width:300px; 
+	height:35px
+}
+#btns {
+	max-width: 320px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#btns.button {
+	margin:50%;
+}
+#resultat {
+	padding:20px;
+}
+#pdfimg {
+    vertical-align: middle;
+}
+
+.ui-menu .ui-menu-item {
+    padding: 10px 1em 3px 0.4em !important;
+}
+
+#arende {
+	display:none;
+	text-align: center;
+	background: #f2f2f2;
+}
+#licens {
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 20%;
+    right: 20%;
+	font-size: 9px;
+}
+
+@media screen and (max-width: 767px) {
+	#filter {
+		float: unset;
+		left: -25px;
+		margin-top: -30px;
+		padding-bottom: 40px;
+	}
+	h1 {
+		padding-bottom: 70px;
+	}
+	#if {
+		min-width:320px;
+	}
+}
