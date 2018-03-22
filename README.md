@@ -5,8 +5,10 @@ Utvecklad av Malsor Limani, SBK, Jönköpings kommun, @Malsor, malsor.limani@jon
 
 Licens: CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/4.0/
 
+Se e-tjänsten i användning hos Jönköpings kommun, https://karta.jonkoping.se/app/tomtkarta/
+
 *************************************************************************************
-Följ instruktionerna nedan, ingen ytterliggare support ges.
+**Följ instruktionerna nedan, ingen ytterliggare support ges.**
 *************************************************************************************
 
 OBS!!! 
