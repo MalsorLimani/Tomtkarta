@@ -26,7 +26,7 @@
 	$connectionInfo = array( "Database"=>"sde_geofir", "UID"=>"gng", "PWD"=>$pass);
 	$conn = sqlsrv_connect($serverName, $connectionInfo);
 	$sql = "SELECT TOP 30 [Name], PostCity, Shape.STAsText() as geom, PostCode FROM [sde_geofir].[gng].[READDRESS] Where Name like ? ORDER BY [Name]";
-	$params = $adr."%";
+	$params = array($adr."%");
 	$array= Array();
 	if( $conn ) {
 		$out = "[";
