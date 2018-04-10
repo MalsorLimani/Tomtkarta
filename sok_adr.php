@@ -25,11 +25,12 @@
 
 	$connectionInfo = array( "Database"=>"sde_geofir", "UID"=>"gng", "PWD"=>$pass);
 	$conn = sqlsrv_connect($serverName, $connectionInfo);
-	$sql = "SELECT TOP 30 [Name], PostCity, Shape.STAsText() as geom, PostCode FROM [sde_geofir].[gng].[READDRESS] Where Name like '".$adr."%' ORDER BY [Name]";
+	$sql = "SELECT TOP 30 [Name], PostCity, Shape.STAsText() as geom, PostCode FROM [sde_geofir].[gng].[READDRESS] Where Name like ? ORDER BY [Name]";
+	$params = $adr."%";
 	$array= Array();
 	if( $conn ) {
 		$out = "[";
-		$stmt = sqlsrv_query( $conn, $sql );
+		$stmt = sqlsrv_query( $conn, $sql, $params );
 		while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC)) {
 			$namn = mb_convert_encoding($row['Name'], 'UTF-8', 'ISO-8859-1');
 			$city = mb_convert_encoding($row['PostCity'], 'UTF-8', 'ISO-8859-1');
