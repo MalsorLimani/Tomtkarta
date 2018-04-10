@@ -62,12 +62,13 @@
 				".$kolumn." =
 					(SELECT TOP 1 RealEstateName
 						FROM sde_geofir.gng.READDRESS
-						WHERE Name LIKE '".$gata."%' AND PostCity LIKE '".$city."')
+						WHERE Name LIKE ? AND PostCity LIKE ?)
 					)
 			group by ".$kolumn;
+		$params = array($gata."%", $city);
 				
 		if( $conn ) {
-			$stmt = sqlsrv_query( $conn, $sql );
+			$stmt = sqlsrv_query( $conn, $sql, $params );
 			while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC)) {
 				
 				$fastbet = mb_convert_encoding($row['fastighet'], 'UTF-8', 'ISO-8859-1');
