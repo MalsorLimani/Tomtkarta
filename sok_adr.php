@@ -1,8 +1,8 @@
 ﻿<?php
 	/*
 	*** TOMTKARTA SOM PDF ***
-	*** UTEVECKLAT AV MALSOR LIMANI, STADSBYGGNADSKONTORET, JÖNKÖPINGS KOMMUN
-	*** @malsor, malsor.limani@jonkoping.se
+	*** UTEVECKLAT AV MALSOR LIMANI
+	*** @malsor, malsor@limani.se
 	*** Licens: CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/4.0/
 	***
 	*** FUNKTIONEN NEDAN SÖKER EFTER ADRESSER
