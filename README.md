@@ -1,7 +1,7 @@
 # Tomtkarta
 E-tjänst för att skapa en tomtkarta i PDF. Kräver ArcGis samt Geosecma for ArcGis.
 
-Utvecklad av Malsor Limani, SBK, Jönköpings kommun, @Malsor, malsor.limani@jonkoping.se
+Utvecklad av Malsor Limani, @Malsor, malsor@limani.se
 
 Licens: CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/4.0/
 
