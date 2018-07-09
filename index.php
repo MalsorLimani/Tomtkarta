@@ -112,5 +112,5 @@ if(window.location.protocol != 'https:') {
 </script>
 <link rel="stylesheet" href="jquery-ui.css">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" media="screen,projection" rel="stylesheet" type="text/css">
-<div id="licens"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />Utvecklad med delningsglädje av ML, Jönköpings kommun.</div>
+<div id="licens"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-licens" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />Utvecklad med ❤️ av <a href="https://twitter.com/malsor/">@malsor</a>.</div>
 </html>
