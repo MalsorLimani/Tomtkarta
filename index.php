@@ -15,7 +15,7 @@ if(window.location.protocol != 'https:') {
   location.href = location.href.replace("http://", "https://");
 }
 </script>
-<script src="jquery-2.1.1.min.js" type="application/javascript"></script>
+<script src="jquery-3.7.1.min.js" type="application/javascript"></script>
 <script src="jquery-ui.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
